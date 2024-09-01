@@ -16,7 +16,7 @@
 # masalan yak darakhte ki hamai pragramistho gam shuda kod hoi khudro roi mekunand,
 # va on darakht ro masalan shokhahoyashro ziyod kunand va server vibr meknad 
 # git push - baroi pushidan 
-# git commit - baroi coment kardan
+# git commit -m - baroi coment kardan
 # git add . - baroi hami failro giriftan
 # git init 
 # git branch
