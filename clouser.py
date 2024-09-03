@@ -5,9 +5,9 @@ def main():
     s1.append(a)
     print(f"Калимаи {a} ба рӯйхат илова шуд.")
 def main1(d):
-    if any(i in d.lower() for i in ["cat", "dog", "lion", "monkey"]):
+    if (i in d.lower() for i in ["cat", "dog", "lion", "monkey"]):
         print("Ин калима номи ҳайвон аст.")
-    elif any(i in d.lower() for i in ["banana", "watermelon", "orange", "strawberry", "kiwi"]):
+    elif (i in d.lower() for i in ["banana", "watermelon", "orange", "strawberry", "kiwi","apple"]):
         print("Ин калима номи меваи дарахтӣ аст.")
     else:
         print("Ин калима номи ҳайвон ё меваи дарахтӣ аст.")
